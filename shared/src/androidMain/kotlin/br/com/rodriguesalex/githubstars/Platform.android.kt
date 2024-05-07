@@ -36,4 +36,4 @@ class AndroidPlatform : GithubStarsApi {
 
 }
 
-actual fun fetchRepos(): GithubStarsApi = AndroidPlatform()
+actual fun githubStarsApi(): GithubStarsApi = AndroidPlatform()

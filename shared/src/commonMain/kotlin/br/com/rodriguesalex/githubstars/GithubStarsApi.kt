@@ -4,4 +4,4 @@ interface GithubStarsApi {
     fun fetchRepos(): List<GithubItem>
 }
 
-expect fun fetchRepos(): GithubStarsApi
+expect fun githubStarsApi(): GithubStarsApi

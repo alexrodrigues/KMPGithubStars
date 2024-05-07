@@ -36,4 +36,4 @@ class IOSPlatform: GithubStarsApi {
         )
 }
 
-actual fun fetchRepos(): GithubStarsApi = IOSPlatform()
+actual fun githubStarsApi(): GithubStarsApi = IOSPlatform()

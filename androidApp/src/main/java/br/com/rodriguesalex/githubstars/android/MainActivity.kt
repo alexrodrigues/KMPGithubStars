@@ -21,11 +21,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import br.com.rodriguesalex.githubstars.GithubStarsApi
-import br.com.rodriguesalex.githubstars.fetchRepos
+import br.com.rodriguesalex.githubstars.githubStarsApi
 
 class MainActivity : ComponentActivity() {
 
-    private val reposApi: GithubStarsApi = fetchRepos()
+    private val reposApi: GithubStarsApi = githubStarsApi()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
