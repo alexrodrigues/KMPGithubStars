@@ -30,8 +30,6 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // todo: to see how we can save these items from the platform
-
         val items = reposApi.fetchRepos()
 
         setContent {
